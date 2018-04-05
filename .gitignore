@@ -1,0 +1,16 @@
+target/
+output/
+*.iml
+*.swp
+.idea
+.classpath
+*.ipr
+*.iws
+.DS_Store
+classes
+.gradle
+build/
+out/
+gradle/
+gradlew
+gradlew.bat
