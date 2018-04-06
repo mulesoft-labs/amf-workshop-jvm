@@ -2,3 +2,13 @@
 
 title: amf workshop
 version: 1.0
+types:
+  Person:
+    properties:
+      name: string
+      lastName: string
+
+/endpoint:
+  get:
+    body:
+      application/json: Person
