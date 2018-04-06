@@ -2,3 +2,29 @@
 
 title: amf workshop
 version: 1.0
+
+#resourceTypes:
+#  postType:
+#    post:
+#      description: post resource type description
+
+types:
+  Person:
+    properties:
+      name: string
+      lastName: string
+  Count:
+    type: integer
+
+/some:
+#  type: postType
+  get:
+#    body:
+#      application/json:
+#        schema: Person
+    responses:
+      200:
+        body:
+          application/json:
+            type: string
+#            maxLength: -1

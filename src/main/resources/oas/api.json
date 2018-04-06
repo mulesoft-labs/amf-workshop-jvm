@@ -1,0 +1,33 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "name": "amf workshop",
+    "version": "1.0"
+  },
+  "definitions": {
+    "Person": {
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "paths": {
+    "/some": {
+      "get": {
+        "responses": {
+          "200": {
+            "amf-mediaType": "application/json",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
