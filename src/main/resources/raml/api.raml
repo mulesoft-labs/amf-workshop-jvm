@@ -1,4 +1,18 @@
 #%RAML 1.0
 
+types:
+  Person:
+    properties:
+      name: string
+      lastName: string
+
 title: amf workshop
 version: 1.0
+
+
+/endpoint:
+  post:
+    body:
+      application/json:
+        type: string
+        maxLength: -1

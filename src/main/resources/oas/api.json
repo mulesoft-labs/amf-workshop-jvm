@@ -3,5 +3,17 @@
   "info": {
     "title": "amf workshop",
     "version": "1.0"
+  },
+  "definitions": {
+    "Person": {
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        }
+      }
+    }
   }
 }
